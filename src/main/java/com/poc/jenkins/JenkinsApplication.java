@@ -21,6 +21,7 @@ public class JenkinsApplication {
 
 	public static void main(String[] args) {
 		logger.info("application executed....");
+		logger.info("second logger in main method");
 		SpringApplication.run(JenkinsApplication.class, args);
 	}
 
