@@ -19,6 +19,7 @@ class JenkinsApplicationTests {
 	@Test
 	public void contextLoads() {
 		log.info("Test case executed.....");
+		log.info("Test cases");
 		Assertions.assertTrue(true);
 	}
 
